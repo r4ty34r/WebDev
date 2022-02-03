@@ -1,0 +1,43 @@
+body { 
+    font-family: sans-serif; 
+    background-color: black;
+    }
+p {
+    color: white; 
+    Margin-top:0px;
+    Margin-bottom:0px;
+    border:2px solid burlywood;
+    width: 100%;
+    }
+a {
+    text-decoration: overline underline; 
+}
+    
+h2 { 
+    font-weight: bold; 
+    text-align: center;
+    Background-color: salmon;
+    Margin-top:0px;
+    margin-bottom:0px; }
+Ul { 
+    Margin:0px;
+    }    
+
+#img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 75%;
+    height: 600px;
+      }
+
+#inline {
+    margin-top: 25px;
+    margin-left: 25px;
+
+
+}   
+
+#block {
+    margin-left: 5px;
+    margin-top: 5px;
+}
