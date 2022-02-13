@@ -2,13 +2,16 @@ body {
     font-family: sans-serif; 
     background-color: black;
     }
+
 p {
     color: white; 
-    Margin-top:0px;
-    Margin-bottom:0px;
+    margin-top:20px;
+    margin-left: 100px;
+    margin-bottom:0px;
     border:2px solid burlywood;
-    width: 100%;
+    width: 50%;
     }
+
 a {
     text-decoration: overline underline; 
 }
@@ -19,25 +22,26 @@ h2 {
     Background-color: salmon;
     Margin-top:0px;
     margin-bottom:0px; }
-Ul { 
-    Margin:0px;
-    }    
 
-#img {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    width: 75%;
-    height: 600px;
-      }
+ul { 
+    margin: 60px;
+    }  
 
-#inline {
+.img {
+    padding: 0px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 30px;
+
+}
+
+ .inline {
     margin-top: 25px;
     margin-left: 25px;
+}
 
-
-}   
-
-#block {
-    margin-left: 5px;
-    margin-top: 5px;
+.mypar {
+    font-family:monospace;
+  font-style: normal;
+  font-weight: 400;
 }
