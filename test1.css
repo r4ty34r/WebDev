@@ -11,7 +11,7 @@ body {
     background-color: red;
     float: left;
     height: 50%;
-    border-top-left-radius: 200px;
+    border-top-left-radius: 5%;
   
 }
 
@@ -20,7 +20,7 @@ body {
     width: 50%;
     float: right;
     height: 50%;
-    border-top-right-radius: 200px;
+    border-top-right-radius: 5%;
     
 }
 
@@ -29,7 +29,7 @@ body {
     width: 50%;
     float: right;
     height: 50%;
-    border-bottom-right-radius: 200px;
+    border-bottom-right-radius: 5%;
 }
 
 .four {
@@ -37,30 +37,22 @@ body {
     width: 50%;
     float: right;
     height: 50%;
-    border-bottom-left-radius: 200px;
+    border-bottom-left-radius: 5%;
 }
 
 .content {
     width: 60%;
-    height: 50%;
+    height: 70%;
     background-color: salmon;
     position: absolute;
-    left: 25%;
-    top: 25%;
-    right: 1px;
-    font-size: 50px;
+    left: 20%;
+    top: 20%;
 }
 
 
 .button{
-    margin: left 49%;
-    height: 300px;
-    width: 500px;
-}
+    align-self: center;
 
-p{
-    margin-left:100px;
-    width:600px;
 }
 
 a {
@@ -81,13 +73,13 @@ ul {
 
 img {
     margin-top:100px;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 100px;
+    width: 10%;
+    height: 15%;
+    margin-bottom: 50px;
 }
 
 .godaddy2 {
-    margin-left: 700px;
+    margin-left: 35%;
 }
 
 .godaddy1 {
@@ -106,12 +98,20 @@ img {
     font-weight: 400;
 }
 
-.class0{
+.leftcontent{
     background-color: lightyellow;
     width: 50%;
     float: left;
     border-style: solid;
     border-color: black;
     position: absolute;
+    height: 30%;
+    margin-left: 3%;
 
+}
+
+.contentpar {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
