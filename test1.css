@@ -11,6 +11,7 @@ body {
     background-color: red;
     float: left;
     height: 50%;
+    border-top-left-radius: 200px;
   
 }
 
@@ -19,6 +20,7 @@ body {
     width: 50%;
     float: right;
     height: 50%;
+    border-top-right-radius: 200px;
     
 }
 
@@ -27,6 +29,7 @@ body {
     width: 50%;
     float: right;
     height: 50%;
+    border-bottom-right-radius: 200px;
 }
 
 .four {
@@ -34,10 +37,11 @@ body {
     width: 50%;
     float: right;
     height: 50%;
+    border-bottom-left-radius: 200px;
 }
 
 .content {
-    width: 50%;
+    width: 60%;
     height: 50%;
     background-color: salmon;
     position: absolute;
@@ -48,15 +52,16 @@ body {
 }
 
 
-button{
-    margin-top:50px;
-    margin-left:350px;
+.button{
+    margin: left 49%;
+    height: 300px;
+    width: 500px;
 }
 
-/*p{
+p{
     margin-left:100px;
     width:600px;
-}*/
+}
 
 a {
     text-decoration: overline underline; 
@@ -67,18 +72,26 @@ h2 {
     text-align: center;
     Background-color: salmon;
     Margin-top:0px;
-    margin-bottom:0px; }
+    margin-bottom:0px;}
 
 ul { 
     margin: 60px;
     }  
 
+
 img {
-    margin-left:300px;
     margin-top:100px;
-    margin-bottom:50px;
     width: 400px;
     height: 200px;
+    margin-bottom: 100px;
+}
+
+.godaddy2 {
+    margin-left: 700px;
+}
+
+.godaddy1 {
+    margin-left:200px;
 }
 
  .inline {
@@ -97,5 +110,8 @@ img {
     background-color: lightyellow;
     width: 50%;
     float: left;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
 
 }
