@@ -51,8 +51,8 @@ body {
 
 .buttonDiv{
     position: absolute;
-    margin-top: 200px;
-    margin-left: 49%;
+    margin-top: 30%;
+    margin-left: 40%;
 
 }
 
@@ -73,18 +73,18 @@ ul {
 
 
 img {
-    margin-top:100px;
-    width: 10%;
+    margin-top: 75px;
+    width: 15%;
     height: 15%;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .godaddy2 {
-    margin-left: 35%;
+    margin-left: 320px;
 }
 
 .godaddy1 {
-    margin-left:200px;
+    margin-left:100px;
 }
 
  .inline {
@@ -101,13 +101,27 @@ img {
 
 .leftcontent{
     background-color:goldenrod;
-    width: 40%;
+    width: 35%;
     float: left;
     border-style: solid;
     border-color: black;
     position: absolute;
-    height: 30%;
+    height: 40%;
     margin-left: 3%;
+    margin-top: 0px;
+
+}
+
+.rightcontent{
+    background-color:goldenrod;
+    width: 35%;
+    float: right;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    height: 35%;
+    margin-left: 50%;
+    margin-top: 0px;
 
 }
 
@@ -120,7 +134,7 @@ img {
 
 .lastLine{
     position: absolute;
-    top: 575px;
-    left: 40%;
+    top: 72%;
+    left: 26%;
 
 }
