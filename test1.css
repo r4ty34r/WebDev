@@ -45,13 +45,14 @@ body {
     height: 70%;
     background-color: salmon;
     position: absolute;
-    left: 20%;
-    top: 20%;
+    top: 25%;
+    left: 25%;
 }
 
-
-.button{
-    align-self: center;
+.buttonDiv{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 49%;
 
 }
 
@@ -99,8 +100,8 @@ img {
 }
 
 .leftcontent{
-    background-color: lightyellow;
-    width: 50%;
+    background-color:goldenrod;
+    width: 40%;
     float: left;
     border-style: solid;
     border-color: black;
@@ -114,4 +115,12 @@ img {
     display: inline-block;
     text-align: center;
     width: 100%;
+}
+
+
+.lastLine{
+    position: absolute;
+    top: 575px;
+    left: 40%;
+
 }
