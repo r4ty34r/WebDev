@@ -25,3 +25,7 @@ function replacetext(){
       const x = "Type something else";
       input.innerHTML = x;
 }
+
+function pressF(){
+      let x = document.getElementById("inputBox").placeholder = 'replace the text';
+}
