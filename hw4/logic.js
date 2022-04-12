@@ -8,20 +8,20 @@ var bottombutton = document.getElementById('bottombutton');
 console.log(input.value);
 
 function myFunction (){ 
-    const x = input.value;
-    p1.innerHTML = x;
-    p2.innerHTML = x;
+      const x = input.value;
+      p1.innerHTML = x;
+      p2.innerHTML = x;
 }
 
 
-function clear(){
-    const y = null;
-    p1.innerHTML = y;
-    p2.innerHTML = y;
+function rmvtxt(){
+      const y = '';
+      p1.innerHTML = '';
+      p2.innerHTML = '';
 }
 
 
-function replaceText(){
-    const x = "Replace the text";
-    input.innerHTML = x;
+function replacetext(){
+      const x = "Type something else";
+      input.innerHTML = x;
 }
