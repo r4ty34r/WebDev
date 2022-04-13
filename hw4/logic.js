@@ -1,8 +1,8 @@
-var input = document.getElementById('inputBox');
-var button = document.getElementById('btn')
-var p1 = document.getElementById('p1');
-var p2 = document.getElementById('p2');
-var bottombutton = document.getElementById('bottombutton');
+const input = document.getElementById('inputBox');
+const button = document.getElementById('btn')
+const p1 = document.getElementById('p1');
+const p2 = document.getElementById('p2');
+const bottombutton = document.getElementById('bottombutton');
 
 
 console.log(input.value);
@@ -16,16 +16,19 @@ function myFunction (){
 
 function rmvtxt(){
       const y = '';
-      p1.innerHTML = '';
-      p2.innerHTML = '';
+      p1.innerHTML = y;
+      p2.innerHTML = y;
+      input.value = y;
 }
 
 
 function replacetext(){
-      const x = "Type something else";
-      input.innerHTML = x;
+      x = "Replace the text";
+      input.value = x;
 }
 
 function pressF(){
-      let x = document.getElementById("inputBox").placeholder = 'replace the text';
+    textt = 'Replace the Text';
+    bottombutton.value = textt;
+   //let x = document.getElementById("inputBox").placeholder = 'replace the text';
 }
